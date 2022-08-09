@@ -1,10 +1,12 @@
 import React from 'react';
+import './Home.css';
+import ImgSlider from './ImgSlider';
 
 function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <main className='main-home__container'>
+      <ImgSlider />
+    </main>
   );
 }
 
