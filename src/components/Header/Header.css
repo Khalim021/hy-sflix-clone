@@ -1,0 +1,41 @@
+.main-nav__header {
+    height: 70px;
+    background-color: #090b13;
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.main-header__logo {
+    width: 80px;
+}
+
+.nav__header {
+    display: flex;
+    flex: 1;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.nav-header__items {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.nav-header__items .home__logo {
+    height: 20px;
+}
+
+.nav-header__items span {
+    font-size: 13px;
+    letter-spacing: 1.42px;
+}
+
+.main-nav__header .user__image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+}
