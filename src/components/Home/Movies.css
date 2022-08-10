@@ -1,0 +1,44 @@
+
+
+.content__container {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.content__items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 250ms;
+}
+
+.content__items {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 4px solid rgba(249, 249, 249, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.content__items:hover {
+    border-color: #fff;
+}
+
+.content__items img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
