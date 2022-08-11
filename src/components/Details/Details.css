@@ -108,7 +108,21 @@
     margin-right: 16px;
 }
 
+.main-detail__container .detail__title {
+    color: rgb(249, 249, 249);
+    margin-top: 26px;
+    font-size: 15px;
+    min-height: 20px;
+}
 
+.main-detail__container .detail__desc {
+    line-height: 1.4;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(249, 249, 249);
+    width: 50%;
+}
 
 
 

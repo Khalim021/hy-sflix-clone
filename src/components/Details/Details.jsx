@@ -26,6 +26,13 @@ function Details() {
           <img src='/img/group-icon.png' alt='group'/>
         </button>
       </div>
+      <div className='detail__title'>
+        2022 - 117m - Fantasy, Family, Kids, Animation, Trailer
+      </div>
+      <div className='detail__desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Rem, voluptas incidunt? Aliquam nesciunt ipsam, id ullam suscipit iste.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, praesentium!
+      </div>
     </div>
   );
 }
