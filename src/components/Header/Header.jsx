@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
   return (
     <nav className='main-nav__header'>
-      <img className='main-header__logo' src='/img/logo.svg' alt='logo'/>
+      <Link to="/"><img className='main-header__logo' src='/img/logo.svg' alt='logo'/></Link>
       <div className='nav__header'>
         <a className='nav-header__items'>
           <img className='home__logo' src='/img/home-icon.svg' alt='home'/>
@@ -31,7 +32,7 @@ function Header() {
           <span>SERIES</span>
         </a>
       </div>
-      <img className='user__image' src='https://media-exp1.licdn.com/dms/image/C4E03AQGGNdEHmV3eVw/profile-displayphoto-shrink_200_200/0/1655530148676?e=2147483647&v=beta&t=KBW0-CLGAbi3viVYWs3qr9BZHebcq66unilC66jcxko' alt='user' />
+      <Link to="/login"><img className='user__image' src='https://media-exp1.licdn.com/dms/image/C4E03AQGGNdEHmV3eVw/profile-displayphoto-shrink_200_200/0/1655530148676?e=2147483647&v=beta&t=KBW0-CLGAbi3viVYWs3qr9BZHebcq66unilC66jcxko' alt='user' /></Link>
     </nav>
   );
 }

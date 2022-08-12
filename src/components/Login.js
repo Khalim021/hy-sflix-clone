@@ -48,6 +48,7 @@ const LoginImg = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 100px;
+  align-items: center;
 `
 const LoginOne = styled.img`
   width: 70%;

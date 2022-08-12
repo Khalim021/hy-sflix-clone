@@ -19,16 +19,16 @@ function ImgSlider() {
   return (
     <Carousel {...settings} className='main-slider__container'>
       <div className='main-img__container'>
-        <img className='slider__img' src='/img/slider-badging.jpg' alt='slider1'/>
+        <img className='slider__img' src='/img/the-originals.jpg' alt='slider1'/>
       </div>
       <div className='main-img__container'>
-        <img className='slider__img' src='/img/slider-badag.jpg' alt='slider2'/>
+        <img className='slider__img' src='/img/iron-man-2.jpg' alt='slider2'/>
       </div>
       <div className='main-img__container'>
-        <img className='slider__img' src='/img/slider-scale.jpg' alt='slider3'/>
+        <img className='slider__img' src='/img/crash-landing-8.jpg' alt='slider3'/>
       </div>
       <div className='main-img__container'>
-        <img className='slider__img' src='/img/slider-scales.jpg' alt='slider4'/>
+        <img className='slider__img' src='/img/vamp-diaries.jpg' alt='slider4'/>
       </div>
     </Carousel>
   );
